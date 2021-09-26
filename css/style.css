@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+html body {
+  background: #000;
+  color: #fff;
+}
+
+html .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 160rem;
+}
+
+html .wrap .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+
+html .wrap .title h1 {
+  font-size: 5rem;
+  font-family: 'Arapey', serif;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+html .wrap .title img {
+  width: 7rem;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  html .wrap .title h1 {
+    font-size: 6rem;
+  }
+  html .wrap .title img {
+    width: 8rem;
+  }
+}
+
+html .wrap nav.first {
+  margin-top: 5rem;
+  background: #fff;
+}
+
+html .wrap nav.first ul {
+  width: 80%;
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+html .wrap nav.first ul li {
+  list-style: none;
+}
+
+html .wrap nav.first ul li a {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #000;
+}
+
+html .wrap nav.first ul li a:hover {
+  color: #333f47;
+}
+
+@media (min-width: 1200px) {
+  html .wrap nav.first ul li a {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1750px) {
+  html .wrap nav.first ul {
+    width: 55%;
+  }
+}
+
+html .wrap header {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .wrap header .header-img {
+  width: 550rem;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../images/img.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 1200px) {
+  html .wrap header .header-img {
+    height: 45rem;
+  }
+}
+
+html .wrap header .header-content-box {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+html .wrap header .header-content-box h2 {
+  font-size: 4.5rem;
+  font-family: 'Arapey', serif;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+html .wrap header .header-content-box p {
+  margin-top: .5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+  html .wrap header .header-content-box h2 {
+    font-size: 5rem;
+  }
+  html .wrap header .header-content-box p {
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+html .wrap section {
+  margin-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+
+html .wrap section aside {
+  width: 110rem;
+  height: 100%;
+}
+
+html .wrap section aside nav.second {
+  height: 60%;
+  padding: 1rem 2rem;
+}
+
+html .wrap section aside nav.second ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .wrap section aside nav.second ul li {
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+html .wrap section aside nav.second ul li a {
+  display: inline-block;
+  font-size: 2.2rem;
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  width: 90px;
+  font-family: 'Arapey', serif;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+html .wrap section aside nav.second ul li a:hover {
+  -webkit-transform: translateX(1rem);
+          transform: translateX(1rem);
+}
+
+@media (min-width: 1200px) {
+  html .wrap section aside nav.second ul li a {
+    font-size: 2.5rem;
+  }
+}
+
+html .wrap section main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 2rem;
+  background: #000;
+  color: #fff;
+}
+
+html .wrap section main h3 {
+  font-size: 4rem;
+  font-family: 'Arapey', serif;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 1200px) {
+  html .wrap section main h3 {
+    font-size: 4.5rem;
+  }
+}
+
+html .wrap section main .main-content-box {
+  margin-top: 5rem;
+}
+
+html .wrap section main .main-content-box h4 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: 'Arapey', serif;
+  font-weight: 100;
+  letter-spacing: -1px;
+  margin-bottom: 1.5rem;
+}
+
+html .wrap section main .main-content-box p {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+html .wrap section main .main-content-box a {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  background: #00adef;
+  margin-top: 2rem;
+  padding: .5rem 3rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+html .wrap section main .main-content-box a:hover {
+  background: #0466c8;
+}
+
+@media (min-width: 1200px) {
+  html .wrap section main .main-content-box h4 {
+    font-size: 3.5rem;
+  }
+  html .wrap section main .main-content-box p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  html .wrap section main {
+    padding: 0 9rem;
+  }
+}
+
+html .wrap .gallery {
+  margin-top: 7rem;
+}
+
+html .wrap .gallery img {
+  display: block;
+  width: 100%;
+}
+
+html .wrap footer {
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+html .wrap footer p {
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  html .wrap footer p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  html .wrap {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
