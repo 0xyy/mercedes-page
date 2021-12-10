@@ -20,6 +20,10 @@ html {
         width: 90%;
         max-width: 160rem;
 
+        @media (min-width: 1200px) {
+            width: 70%;
+        }
+
         .title {
             display: flex;
             justify-content: space-between;
@@ -31,19 +35,17 @@ html {
                 font-family: 'Arapey', serif;
                 font-weight: 100;
                 letter-spacing: -1px;
+
+                @media(min-width: 1200px) {
+                    font-size: 6rem;
+                }
             }
 
             img {
                 width: 7rem;
                 cursor: pointer;
-            }
 
-            @media (min-width: 1200px) {
-                h1 {
-                    font-size: 6rem;
-                }
-
-                img {
+                @media(min-width: 1200px) {
                     width: 8rem;
                 }
             }
@@ -61,6 +63,10 @@ html {
                 align-items: center;
                 margin: 0 auto;
 
+            @media (min-width: 1750px) {
+                width: 55%;
+            }
+
                 li {
                     list-style: none;
 
@@ -75,20 +81,11 @@ html {
 
                     a:hover {
                         color: #333f47;
-                    }
 
-                    @media (min-width: 1200px) {
-                        a {
-                            font-size: 2rem;
+                        @media (min-width: 1200px) {
+                            letter-spacing: 1px;
                         }
                     }
-                }
-            }
-
-
-            @media (min-width: 1750px) {
-                ul {
-                    width: 55%;
                 }
             }
         }
@@ -107,10 +104,8 @@ html {
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
-            }
 
-            @media (min-width: 1200px) {
-                .header-img {
+                @media (min-width: 1200px) {
                     height: 45rem;
                 }
             }
@@ -128,23 +123,21 @@ html {
                     font-family: 'Arapey', serif;
                     font-weight: 100;
                     letter-spacing: -1px;
+
+                    @media (min-width: 1200px) {
+                        font-size: 5rem;
+                    }
                 }
 
                 p {
                     margin-top: .5rem;
                     font-size: 1.5rem;
                     font-weight: 300;
-                }
 
-                @media (min-width: 1200px) {
-                    h2 {
-                        font-size: 5rem;
-                    }
-
-                    p {
+                    @media (min-width: 1200px) {
                         font-size: 1.7rem;
                         margin-top: 1.5rem;
-                        line-height: 3rem;
+                        line-height: 3rem;  
                     }
                 }
             }
@@ -190,11 +183,9 @@ html {
 
                             a:hover {
                                 transform: translateX(1rem);
-                            }
 
-                            @media (min-width: 1200px) {
-                                a {
-                                    font-size: 2.5rem;
+                                @media (min-width: 1200px) {
+                                    letter-spacing: 0.2px;
                                 }
                             }
                         }
@@ -208,15 +199,17 @@ html {
                 background: #000;
                 color: #fff;
 
+                @media (min-width: 1200px) {
+                    padding: 0 9rem;
+                }
+
                 h3 {
                     font-size: 4rem;
                     font-family: 'Arapey', serif;
                     font-weight: 100;
                     letter-spacing: -1px;
-                }
 
-                @media (min-width: 1200px) {
-                    h3 {
+                    @media (min-width: 1200px) {
                         font-size: 4.5rem;
                     }
                 }
@@ -231,12 +224,21 @@ html {
                         font-weight: 100;
                         letter-spacing: -1px;
                         margin-bottom: 1.5rem;
+
+                        @media (min-width: 1200px) {
+                            font-size: 3.5rem;
+                        }
                     }
 
                     p {
                         line-height: 2.5rem;
                         font-size: 1.5rem;
                         font-weight: 300;
+
+                        @media (min-width: 1200px) {
+                            font-size: 1.8rem;
+                            line-height: 3rem;   
+                        }
                     }
 
                     a {
@@ -253,23 +255,6 @@ html {
                     a:hover {
                         background: #0466c8;
                     }
-
-                    @media (min-width: 1200px) {
-                        h4 {
-                            font-size: 3.5rem;
-                        }
-
-                        p {
-                            font-size: 1.8rem;
-                            line-height: 3rem;
-                        }
-                    }
-                }
-            }
-
-            @media (min-width: 1200px) {
-                main {
-                    padding: 0 9rem;
                 }
             }
         }
@@ -293,19 +278,11 @@ html {
                 font-size: 1.5rem;
                 width: 100%;
                 text-align: center;
-            }
 
-            @media (min-width: 1200px) {
-                p {
+                @media (min-width: 1200px) {
                     font-size: 1.8rem;
                 }
             }
-        }
-    }
-
-    @media (min-width: 1200px) {
-        .wrap {
-            width: 70%;
         }
     }
 }

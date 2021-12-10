@@ -28,6 +28,12 @@ html .wrap {
   max-width: 160rem;
 }
 
+@media (min-width: 1200px) {
+  html .wrap {
+    width: 70%;
+  }
+}
+
 html .wrap .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,15 +54,18 @@ html .wrap .title h1 {
   letter-spacing: -1px;
 }
 
+@media (min-width: 1200px) {
+  html .wrap .title h1 {
+    font-size: 6rem;
+  }
+}
+
 html .wrap .title img {
   width: 7rem;
   cursor: pointer;
 }
 
 @media (min-width: 1200px) {
-  html .wrap .title h1 {
-    font-size: 6rem;
-  }
   html .wrap .title img {
     width: 8rem;
   }
@@ -81,6 +90,12 @@ html .wrap nav.first ul {
   margin: 0 auto;
 }
 
+@media (min-width: 1750px) {
+  html .wrap nav.first ul {
+    width: 55%;
+  }
+}
+
 html .wrap nav.first ul li {
   list-style: none;
 }
@@ -100,14 +115,8 @@ html .wrap nav.first ul li a:hover {
 }
 
 @media (min-width: 1200px) {
-  html .wrap nav.first ul li a {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 1750px) {
-  html .wrap nav.first ul {
-    width: 55%;
+  html .wrap nav.first ul li a:hover {
+    letter-spacing: 1px;
   }
 }
 
@@ -169,6 +178,12 @@ html .wrap header .header-content-box h2 {
   letter-spacing: -1px;
 }
 
+@media (min-width: 1200px) {
+  html .wrap header .header-content-box h2 {
+    font-size: 5rem;
+  }
+}
+
 html .wrap header .header-content-box p {
   margin-top: .5rem;
   font-size: 1.5rem;
@@ -176,9 +191,6 @@ html .wrap header .header-content-box p {
 }
 
 @media (min-width: 1200px) {
-  html .wrap header .header-content-box h2 {
-    font-size: 5rem;
-  }
   html .wrap header .header-content-box p {
     font-size: 1.7rem;
     margin-top: 1.5rem;
@@ -247,8 +259,8 @@ html .wrap section aside nav.second ul li a:hover {
 }
 
 @media (min-width: 1200px) {
-  html .wrap section aside nav.second ul li a {
-    font-size: 2.5rem;
+  html .wrap section aside nav.second ul li a:hover {
+    letter-spacing: 0.2px;
   }
 }
 
@@ -259,6 +271,12 @@ html .wrap section main {
   padding: 0 2rem;
   background: #000;
   color: #fff;
+}
+
+@media (min-width: 1200px) {
+  html .wrap section main {
+    padding: 0 9rem;
+  }
 }
 
 html .wrap section main h3 {
@@ -287,10 +305,23 @@ html .wrap section main .main-content-box h4 {
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 1200px) {
+  html .wrap section main .main-content-box h4 {
+    font-size: 3.5rem;
+  }
+}
+
 html .wrap section main .main-content-box p {
   line-height: 2.5rem;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+  html .wrap section main .main-content-box p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
 }
 
 html .wrap section main .main-content-box a {
@@ -307,22 +338,6 @@ html .wrap section main .main-content-box a {
 
 html .wrap section main .main-content-box a:hover {
   background: #0466c8;
-}
-
-@media (min-width: 1200px) {
-  html .wrap section main .main-content-box h4 {
-    font-size: 3.5rem;
-  }
-  html .wrap section main .main-content-box p {
-    font-size: 1.8rem;
-    line-height: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  html .wrap section main {
-    padding: 0 9rem;
-  }
 }
 
 html .wrap .gallery {
@@ -349,12 +364,6 @@ html .wrap footer p {
 @media (min-width: 1200px) {
   html .wrap footer p {
     font-size: 1.8rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  html .wrap {
-    width: 70%;
   }
 }
 /*# sourceMappingURL=style.css.map */
