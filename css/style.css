@@ -15,6 +15,58 @@ html body {
   color: #fff;
 }
 
+html .slider-box {
+  margin: 5rem 0;
+  width: 100%;
+  height: 600px;
+}
+
+html .slider-box .slider {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/slider1.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+html .slider-box .slider-menu {
+  margin: 1.5rem 0;
+  width: 100%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .slider-box .slider-menu .slider-button {
+  height: 1.8rem;
+  margin: .7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  cursor: pointer;
+  border: .2rem solid #fff;
+}
+
+html .slider-box .slider-menu .slider-button:first-of-type {
+  margin-left: 0;
+}
+
+html .slider-box .slider-menu .slider-button:last-of-type {
+  margin-right: 0;
+}
+
+html .slider-box .slider-menu .active {
+  background-color: #fff;
+}
+
 html .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
